@@ -1,6 +1,6 @@
 # 🚀 Quick Start Guide - Phishing & Fraud Detection System
 
-## 🎯 Sabse Aasan Tarika (Easiest Method)
+## 🎯 Easiest Method
 
 ### Method 1: Double Click se Start (Windows)
 1. Project folder mein **START.bat** file ko **double-click** karein
