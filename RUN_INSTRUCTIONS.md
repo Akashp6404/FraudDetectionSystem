@@ -10,7 +10,7 @@ Open terminal/PowerShell in the project folder and run:
 pip install -r requirements.txt
 ```
 
-Agar koi error aaye to ye try karein:
+If you encounter any errors, try the following:
 ```bash
 pip install --upgrade pip
 pip install -r requirements.txt
@@ -18,13 +18,13 @@ pip install -r requirements.txt
 
 ### Step 2: Run the Application
 
-Project folder mein terminal/PowerShell mein ye command run karein:
+Run the following command in Terminal/PowerShell in the project folder:
 
 ```bash
 python app.py
 ```
 
-Ya agar Python 3 use karna hai:
+Or, if you want to use Python 3:
 ```bash
 python3 app.py
 ```
@@ -45,7 +45,7 @@ http://127.0.0.1:5000
 
 ### Step 4: Test the System (Optional)
 
-Alag terminal window mein test script run kar sakte hain:
+You can run the test script in a separate terminal window:
 
 ```bash
 python test_system.py
@@ -81,11 +81,11 @@ pip install flask flask-cors numpy pandas scikit-learn requests tldextract dnspy
 
 ### Issue 2: Port already in use
 **Solution:** 
-- app.py mein port change karein (line 152): `app.run(debug=True, host='0.0.0.0', port=5001)`
-- Ya terminal mein running process ko stop karein
+- Change the port in `app.py`. (line 152): `app.run(debug=True, host='0.0.0.0', port=5001)`
+- Or, stop the running process in the terminal.
 
 ### Issue 3: Virtual Environment
-**Agar virtual environment use karna hai:**
+**If you want to use a virtual environment:**
 
 ```bash
 # Create virtual environment
@@ -118,7 +118,7 @@ python app.py
 
 ## Quick Test
 
-Browser open karke ye try karein:
+Open the browser and try the following:
 
 1. Dashboard page: http://localhost:5000
 2. URL Check: http://localhost:5000/check-url
@@ -129,7 +129,7 @@ Browser open karke ye try karein:
 
 ## Stop the Server
 
-Terminal mein `Ctrl + C` press karein to stop the server.
+Press `Ctrl + C` in the terminal to stop the server.
 
 ---
 
