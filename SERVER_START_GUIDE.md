@@ -84,17 +84,17 @@ Then open `localhost:5001` in the browser.
 - Is the port correct? (5000 or 5001?)
 - Is the URL Correct? (`localhost:5000` or `127.0.0.1:5000`)
 
-### Problem 5: Server start hota hai but kuch error aata hai
+### Problem 5:The server starts, but some error occurs.
 **Solution:**
-1. Terminal window close mat karein
-2. Error message ko carefully read karein
-3. Dependencies install karein: `pip install -r requirements.txt`
+1. Do not close the Terminal window.
+2. Read the error message carefully.
+3. Install the dependencies: `pip install -r requirements.txt`
 
 ---
 
-## 🛑 Server Stop Karne Ka Tarika:
+## 🛑 How to Stop the Server:
 
-Terminal window mein:
+In the Terminal window:
 ```
 Ctrl + C
 ```
@@ -104,7 +104,7 @@ Ctrl + C
 ## 📱 Complete Example:
 
 ```bash
-# 1. Terminal khol lein (Project folder mein)
+# 1. Open the Terminal (in the project folder).
 cd "D:\Phishing & Fraud Detection System"
 
 # 2. Dependencies check (optional)
@@ -113,7 +113,7 @@ pip install -r requirements.txt
 # 3. Server start
 python app.py
 
-# 4. Browser mein open karein
+# 4.Open it in the browser.
 # http://localhost:5000
 ```
 
@@ -121,23 +121,23 @@ python app.py
 
 ## 💡 Tips:
 
-1. ✅ Terminal window open rakhein jab tak server use karna hai
-2. ✅ Server running rehna chahiye, terminal band mat karein
-3. ✅ Browser automatically nahi khulta, manually open karna padta hai
-4. ✅ Agar port 5000 use hai, to 5001 try karein
+1. ✅ Keep the Terminal window open as long as you are using the server.
+2. ✅ The server should keep running; do not close the Terminal.
+3. ✅ The browser does not open automatically; you have to open it manually.
+4. ✅ If port 5000 is in use, try port 5001.
 
 ---
 
 ## 🎯 Quick Checklist:
 
-- [ ] Python installed hai? (`python --version`)
-- [ ] Project folder mein hain? (`cd "D:\Phishing & Fraud Detection System"`)
-- [ ] Dependencies install hui hain? (`pip install -r requirements.txt`)
-- [ ] Server start kiya? (`python app.py`)
-- [ ] Browser mein URL open kiya? (`localhost:5000`)
-- [ ] Terminal window open hai? (Server running ke liye)
+- [ ] Python is installed? (`python --version`)
+- [ ] You are in the project folder? (`cd "D:\Phishing & Fraud Detection System"`)
+- [ ] The dependencies are installed? (`pip install -r requirements.txt`)
+- [ ] The server has been started? (`python app.py`)
+- [ ] Opened the URL in the browser? (`localhost:5000`)
+- [ ] Is the Terminal window open? (The server needs to be running.)
 
 ---
 
-**Agar abhi bhi problem hai, to terminal mein jo error aaya hai, wo share karein!** 🚀
+**If the problem still persists, please share the error that appears in the Terminal!** 🚀
 
