@@ -1,31 +1,30 @@
-# 🚀 Server Start Karne Ka Complete Guide
-
+# 🚀 # Complete Guide to Starting the Server
 ## Method 1: Easiest Way (Double Click)
 
 ### Windows:
-1. **START.bat** ya **start_server.bat** file ko **double-click** karein
-2. Terminal window open hoga
-3. Server automatically start ho jayega
-4. Browser mein `http://localhost:5000` open karein
+1. **START.bat** or **start_server.bat** or **Double-click the file.**
+2.The terminal window will open.
+3. The server will start automatically.
+4.Open `http://localhost:5000` in your browser.
 
 ---
 
-## Method 2: Terminal/PowerShell se
+## Method 2: **From Terminal/PowerShell**
 
-### Step 1: Terminal Khol Lein
-- Project folder mein jaayein: `D:\Phishing & Fraud Detection System`
-- Folder mein **right-click** → **"Open PowerShell here"**
-- Ya `Win + X` → **Windows PowerShell**
+### Step 1: Open the Terminal.
+- Go to the project folder: `D:\Phishing & Fraud Detection System`
+- Right-click inside the folder → **"Open PowerShell here"**.
+- Or `Win + X` → **Windows PowerShell**
 
-### Step 2: Server Start Karein
-Terminal mein ye command type karein aur Enter press karein:
+### Step 2: Start the Server
+Type the following command in the terminal and press Enter:
 
 ```bash
 python app.py
 ```
 
-### Step 3: Success Message Dekhein
-Agar sab kuch sahi hai, to ye message dikhega:
+### Step 3: Check the Success Message.
+If everything is working correctly, you will see the following message:
 
 ```
 Starting Phishing & Fraud Detection System...
@@ -35,24 +34,24 @@ Access the web interface at: http://localhost:5000
  * Running on http://0.0.0.0:5000
 ```
 
-### Step 4: Browser Mein Open Karein
-1. **Chrome/Firefox/Edge** browser khol lein
-2. Address bar mein type karein: `localhost:5000`
-3. Ya: `http://localhost:5000`
-4. **Enter** press karein
+### Step 4: Open in the Browser
+1. **Chrome/Firefox/Edge** Open the Browser
+2. Type the following in the address bar: `localhost:5000`
+3. Or: `http://localhost:5000`
+4. **Enter** Press Enter 
 
 ---
 
-## ✅ Server Start Ho Gaya Check Kaise Karein:
+## ✅ How to Check if the Server Has Started:
 
-Terminal mein ye dikhna chahiye:
+You should see the following in the terminal:
 ```
 Starting Phishing & Fraud Detection System...
 Access the web interface at: http://localhost:5000
  * Running on http://0.0.0.0:5000
 ```
 
-Aur browser mein website open ho jani chahiye!
+And the website should open in the browser!
 
 ---
 
@@ -63,7 +62,7 @@ Aur browser mein website open ho jani chahiye!
 ```bash
 python3 app.py
 ```
-Ya Python ko PATH mein add karein
+Or add Python to the PATH.
 
 ### Problem 2: "ModuleNotFoundError: No module named 'flask'"
 **Solution:**
@@ -73,17 +72,17 @@ pip install flask flask-cors numpy pandas scikit-learn requests tldextract dnspy
 
 ### Problem 3: "Address already in use" / Port 5000 busy
 **Solution:**
-`app.py` file mein line 152 pe jayein aur port change karein:
+`app.py` Go to **line 152** in the file and change the port:
 ```python
 app.run(debug=True, host='0.0.0.0', port=5001)
 ```
-Phir browser mein `localhost:5001` open karein
+Then open `localhost:5001` in the browser.
 
-### Problem 4: Browser mein "This site can't be reached"
+### Problem 4: In the Browser "This site can't be reached"
 **Check:**
-- Terminal mein server running hai? (check terminal window)
-- Port sahi hai? (5000 ya 5001?)
-- URL sahi type kiya? (`localhost:5000` ya `127.0.0.1:5000`)
+- Is the server running in the terminal? (Check the terminal window.)
+- Is the port correct? (5000 or 5001?)
+- Is the URL Correct? (`localhost:5000` or `127.0.0.1:5000`)
 
 ### Problem 5: Server start hota hai but kuch error aata hai
 **Solution:**
