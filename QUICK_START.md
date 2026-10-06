@@ -2,22 +2,24 @@
 
 ## 🎯 Easiest Method
 
-### Method 1: Double Click se Start (Windows)
-1. Project folder mein **START.bat** file ko **double-click** karein
-2. Browser mein khud khol lein ya manually `http://localhost:5000` open karein
+### Method 1: Start by Double-Clicking (Windows)
+In the project folder, double-click the START.bat file.
+The browser will open automatically, or you can manually open http://localhost:5000.
 
-### Method 2: Terminal/PowerShell se
+### Method 2: Start from Terminal/PowerShell
 
-**Step 1:** Project folder mein terminal/PowerShell khol lein
-- Windows: Folder mein right-click → "Open PowerShell here"
-- Ya `Win + R` → type `cmd` → Enter → `cd "D:\Phishing & Fraud Detection System"`
+**Step 1:** Open Terminal/PowerShell in the project folder
 
-**Step 2:** Ye command run karein:
+- Windows: Right-click inside the folder → **"Open PowerShell here"**
+- Or press `Win + R` → type `cmd` → press Enter → `cd "D:\Phishing & Fraud Detection System"`
+
+
+**Step 2:** Run the following command:
 ```bash
 python app.py
 ```
 
-**Step 3:** Browser mein ye URL open karein:
+**Step 3:** Open the following URL in your browser:
 ```
 http://localhost:5000
 ```
@@ -26,11 +28,11 @@ http://localhost:5000
 
 ## ✅ Complete Steps:
 
-### 1️⃣ Dependencies Install (Ek baar karna hai)
+### 1️⃣ ### Install Dependencies (Only Required Once)
 ```bash
 pip install -r requirements.txt
 ```
-*(Pehle se installed hai to skip karein)*
+*(If already installed, skip this step.)*
 
 ### 2️⃣ Application Run
 ```bash
@@ -44,62 +46,62 @@ http://localhost:5000
 
 ---
 
-## 🎨 Features Use Karne Ka Tarika:
+## 🎨 ### How to Use the Features:
 
-1. **Dashboard** - `/` - Home page dekhne ke liye
-2. **Check URL** - `/check-url` - Website URL check karne ke liye
-3. **Check Email** - `/check-email` - Email fraud check karne ke liye  
-4. **Analytics** - `/analytics` - Statistics dekhne ke liye
+1. **Dashboard** - `/` - To view the Home page:
+2. **Check URL** - `/check-URL` -To check a website URL:
+3. **Check Email** - `/check-email` - To check for email fraud: 
+4. **Analytics** - `/analytics` - To view statistics:
 
 ---
 
-## ⚠️ Agar Error Aaye:
+## ⚠️ If You Get an Error:
 
 ### Error: "python is not recognized"
-**Solution:** `python3` use karein:
+**Solution:** `python3` use it:
 ```bash
 python3 app.py
 ```
 
 ### Error: "ModuleNotFoundError"
-**Solution:** Dependencies install karein:
+**Solution:** Install the dependencies:
 ```bash
 pip install flask flask-cors numpy pandas scikit-learn requests tldextract dnspython joblib
 ```
 
 ### Error: "Port already in use"
 **Solution:** 
-- Terminal mein running process ko `Ctrl + C` se stop karein
-- Ya `app.py` mein port change karein (line 152): `port=5001`
+- Stop the running process in the terminal by pressing `Ctrl + C`.
+- Or change the port in `app.py` (line 152): `port=5001`
 
 ---
 
-## 🛑 Server Stop Karne Ka Tarika:
+## 🛑 How to Stop the Server:
 
-Terminal window mein:
+In the Terminal window:
 ```
 Ctrl + C
 ```
 
 ---
 
-## 📱 Test Karne Ke Liye:
+## 📱 To Test the System::
 
-1. Browser open karein (Chrome/Firefox/Edge)
-2. Address bar mein type karein: `localhost:5000`
-3. Enter press karein
-4. Dashboard page dikhega! 🎉
+1. Open the Browser (Chrome/Firefox/Edge)
+2. Type the following in the address bar: `localhost:5000`
+3. Press Enter 
+4.The Dashboard page will be displayed! 🎉
 
 ---
 
 ## 💡 Quick Tips:
 
-- ✅ Server start hone ke baad terminal window band mat karein
-- ✅ Browser mein automatically tab open nahi hoga, manually open karna hoga
-- ✅ Server running rahega jab tak `Ctrl + C` na press karein
-- ✅ Agar port 5000 use hai, to `localhost:5001` try karein
+- ✅ Do not close the terminal window after starting the server.
+- ✅ The browser tab will not open automatically; you will need to open it manually.
+- ✅ The server will keep running until you press `Ctrl + C`.
+- ✅ If port 5000 is already in use, try `localhost:5001`.
 
 ---
 
-**Ready hai! Ab bas `python app.py` run karein aur browser mein `localhost:5000` open karein!** 🚀
+**Ready! Now just run `python app.py` and open `localhost:5000` in your browser!** 🚀
 
